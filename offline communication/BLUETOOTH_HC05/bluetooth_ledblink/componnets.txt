@@ -1,0 +1,28 @@
+COMPONENTS REQUIRED:
+
+1)Arduino UNO
+
+2)HC-05 Bluetooth Module
+
+3)LED
+
+4)220Ω Resistor (for the LED)
+
+5)USB Cable (for powering the Arduino)
+
+6)Breadboard and Jumper Wires (optional for easier connections)
+
+WIRING INSTRUCTIONS:
+
+1. Connecting HC-05 Bluetooth Module to Arduino UNO
+HC-05 Pin	Arduino UNO Pin
+TX	        Pin 10
+RX	        Pin 11
+VCC	        5V
+GND	        GND
+
+2. Connecting the LED to Arduino UNO
+
+LED Pin	        Arduino UNO Pin
+Anode (+)	Pin 13
+Cathode (-)	GND 

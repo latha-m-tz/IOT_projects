@@ -1,0 +1,26 @@
+COMPONENTS REQUIRED:
+
+1)Arduino UNO
+
+2)HM-10 Bluetooth Module
+
+3)USB Cable (for powering the Arduino)
+
+4)LED
+
+WIRING INSTRUCTIONS:
+
+1. Connecting HM-10 Bluetooth Module to Arduino UNO
+
+HM-10 Pin	Arduino UNO Pin
+TX	        Pin 2
+RX	        Pin 3
+VCC	        5V
+GND	        GND
+
+2.Connecting the led pin to the Arduino uno 
+
+LEDPIN         PIN 13
+
+
+APK of the

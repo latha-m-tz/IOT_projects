@@ -1,0 +1,30 @@
+COMPONENST REQUIRED:
+
+1)Arduino Uno
+
+2)ESP8266 Wi-Fi Module(NODEMCU)
+
+3)Single Channel Relay Module
+
+4)12V AC Bulb
+
+5)USB Cable
+
+6)Power Source (for AC Bulb)
+
+7)Connecting Wires
+
+
+CONNECTIONS:
+
+
+1. Connecting the Single Channel Relay to Arduino Uno:
+Relay VCC → Arduino 5V
+Relay GND → Arduino GND
+Relay IN → Arduino Digital Pin 7 (can be any digital pin)
+
+
+2. Connecting the AC Bulb to the Relay:
+Relay Common (COM) → One terminal of the AC power source
+Relay Normally Open (NO) → One terminal of the AC bulb
+The other terminal of the AC bulb → The other terminal of the AC power source

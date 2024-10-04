@@ -1,0 +1,19 @@
+COMPONENTS REQUIRED:
+
+1)Servo Motor
+
+2)Arduino UNO
+
+3)USB Cable (for powering the Arduino)
+
+4)Jumper Wires
+male to male - 03
+
+WIRING INSTRUCTIONS:
+1.Connecting Servo Motor to Arduino UNO
+
+Servo Motor Wire	                 Arduino UNO Pin
+
+Red (Power)	                               5V
+Black or Brown (Ground)	GND
+Orange, White, or Yellow (Signal)	Digital Pin (e.g., Pin 9)

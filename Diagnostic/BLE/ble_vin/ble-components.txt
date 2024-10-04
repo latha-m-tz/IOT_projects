@@ -1,0 +1,42 @@
+COMPONENTS:
+
+1)HM-10 BLE MODULE-1
+2)Arduino uno
+3)mcp2515 can module
+4)ecu (for can module)
+
+CONNECTIONS:
+
+BLE --- ARDUINO UNO 
+
+VCC -- 5V
+GND -- GND
+TXD -- 5
+RXD -- 6
+
+ARDUINO UNO --- MCP2515 CAN MODULE
+
+VCC --  5V
+GND --  GND
+CS  -- ~10
+SO  -- ~12
+SI  -- ~11
+SCK -- ~13
+INT -- ~2
+
+MCP2515 CAN MODULE -- ECU 
+
+CAN HIGH -- 6 TH PIN 
+CAN  LOW -- 14 TH PIN
+
+USING APPILACTION :
+
+use the serial Bluetooth terminal application or ble scanner application for sending the
+values through the applications to the ble module.
+
+
+
+
+
+
+ 

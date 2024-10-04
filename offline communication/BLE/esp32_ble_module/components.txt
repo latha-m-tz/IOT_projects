@@ -1,0 +1,5 @@
+ESP32 ble module to connect the usb cable to the pc 
+
+
+using  Bluetooth serial terminal app 
+

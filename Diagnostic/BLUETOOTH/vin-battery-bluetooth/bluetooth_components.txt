@@ -1,0 +1,38 @@
+COMPONENTS REQUIRED:
+
+1)Arduino UNO
+
+2)USB Cable (for powering the Arduino)
+
+3)HC-05 Bluetooth Module
+
+4)MCP2515 CAN Module
+
+5)ECU (Electronic Control Unit compatible with CAN)
+
+WIRING  INSTRUCTIONS:
+ 
+1. Connecting HC-05 Bluetooth Module to Arduino UNO
+
+HC-05 Pin      Arduino UNO Pin
+TX	       Pin 5
+RX	       Pin 6
+VCC	       5V
+GND	       GND
+
+2. Connecting MCP2515 CAN Module to Arduino UNO
+
+MCP2515 Pin	    Arduino UNO Pin
+VCC	            5V
+GND	            GND
+CS (Chip Select     Pin 10
+SO (Serial Out)	    Pin 12
+SI (Serial In)	    Pin 11
+SCK (Serial Clock)  Pin 13
+INT (Interrupt)	    Pin 2
+
+3. Connecting MCP2515 CAN Module to ECU
+
+MCP2515 Pin	ECU Pin
+CAN HIGH	6th Pin
+CAN LOW	        14th Pin

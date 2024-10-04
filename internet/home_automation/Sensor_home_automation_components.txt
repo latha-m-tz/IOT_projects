@@ -1,0 +1,38 @@
+COMPONENTS REQUIRED:
+
+1)ESP8266 Wi-Fi Module (NODEMCU)
+
+2)Ultrasonic Sensor (HC-SR04)
+
+3)3 LEDs
+
+4)2 Pushbuttons
+
+5)USB Cable (for powering the NODEMCU)
+
+6)Resistors (220Ω for LEDs, 10kΩ for pushbuttons, if needed)
+
+7)Jumper Wires
+MALE TO MALE
+WIRING INSTRUCTIONS:
+
+1.Connecting Ultrasonic Sensor to NodeMCU
+
+HC-SR04 Pin	NodeMCU Pin
+TRIG (Trigger)	D0
+ECHO (Echo)	D1
+VCC	        3.3V
+GND	        GND
+
+2.Connecting LEDs to NodeMCU
+
+LED Pin	NodeMCU       Pin
+LEDPIN 1	      D3
+LEDPIN 2	      D4
+LEDPIN 3	      D2 (if needed)
+
+3.Connecting Pushbuttons to NodeMCU
+
+Pushbutton Pin	NodeMCU Pin
+BUTTONPIN 1	D5
+BUTTONPIN 2	D6 (if needed)

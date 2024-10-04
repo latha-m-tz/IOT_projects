@@ -1,0 +1,28 @@
+COMPONENTS REQUIRED:
+
+1)Arduino UNO
+
+2)USB Cable (for powering the Arduino)
+
+3)MCP2515 CAN Module
+
+4)ECU (Electronic Control Unit compatible with CAN)
+
+WIRING INSTRUCTIONS:
+
+1. Connecting Arduino UNO to MCP2515 CAN Module
+
+MCP2515 Pin	----          Arduino UNO Pin
+VCC	                      5V
+GND	                      GND
+CS (Chip Select)	      Pin 10
+SO (Serial Out)	              Pin 12
+SI (Serial In)	              Pin 11
+SCK (Serial Clock)	      Pin 13
+INT (Interrupt)	              Pin 2
+
+2. Connecting MCP2515 CAN Module to ECU
+
+MCP2515 Pin----	ECU Pin
+CAN HIGH	6th Pin
+CAN LOW	        14th Pin

@@ -1,0 +1,23 @@
+Arduino UNO
+
+1)MFRC522 RFID Reader
+
+2)RFID Tags
+
+3)USB Cable (for powering the Arduino)
+
+4)Jumper Wires
+MALE TO MALE - 06
+
+WIRING INSTRUCTIONS:
+
+1.Connecting MFRC522 RFID Reader to Arduino UNO
+
+MFRC522 Pin	Arduino UNO Pin
+RST	        Pin 5
+SS (SDA)	Pin 10
+MISO	        Pin 12
+MOSI	        Pin 11
+SCK	        Pin 13
+VCC	        3.3V
+GND	        GND

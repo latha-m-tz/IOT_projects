@@ -1,0 +1,23 @@
+COMPONENTS REQUIRED 
+
+1)ESP8266 Wi-Fi Module
+
+2)MFRC522 RFID Module
+
+3)NFC Tag
+
+CIRCUIT CONNECTIONS
+
+1. Connecting the MFRC522 RFID Module to the ESP8266
+
+
+MFRC522 RFID Module---->ESP8266 Wi -Fi Module
+
+3.3V	                 3V
+RST	                 D3 (GPIO0)
+GND	                 GND
+IRQ	                 NOT CONNECTED
+MISO	                 D6 (GPIO12)
+MOSI	                 D7 (GPIO13)
+SCK	                 D5 (GPIO14)
+SDA	                 D4 (GPIO2)
