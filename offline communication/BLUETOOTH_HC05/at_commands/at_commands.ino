@@ -1,57 +1,42 @@
 #include <SoftwareSerial.h>
 
-/**
- * CONFIGURATION
- * On Uno/Mega only interrupt capable pins can be used (designated with tilda symbol ~)
- */
-#define HC_ENABLE 9 // Connect pin 9 from Arduino to pin ENABLE on HC-05
-#define HC_TX 10    // Connect pin 10 from Arduino to pin TX on HC-05
-#define HC_RX 11    // Connect pin 11 from Arduino to pin RX on HC-05
+#define HC_ENABLE 9 
+#define HC_TX 10    
+#define HC_RX 11    
 
-/**
- * Do not modify anything below this line
- * Serial interfaces initialisation and start HC-05 in AT mode
- */
-SoftwareSerial BTSerial(HC_TX, HC_RX); // TX & RX are inversed here on purpose to avoid confusion when wiring
+SoftwareSerial BTSerial(HC_TX, HC_RX); 
 String hlpCmd = "";
 
 void setup() {
   Serial.begin(9600);
   Serial.println(F(
-    "##############################################################\n"
-    "#                                                            #\n"
-    "#                        W A R N I N G                       #\n"
-    "#                                                            #\n"
-    "#   EN pin on HC-05 must be set to HIGH before powering on!  #\n"
-    "#   Do not forget to set Both NL & CR for end of line char!  #\n"
-    "#                                                            #\n"
-    "##############################################################\n"
-  ));
+  //   "##############################################################\n"
+  //   "#                                                            #\n"
+  //   "#                        W A R N I N G                       #\n"
+  //   "#                                                            #\n"
+  //   "#   EN pin on HC-05 must be set to HIGH before powering on!  #\n"
+  //   "#   Do not forget to set Both NL & CR for end of line char!  #\n"
+  //   "#                                                            #\n"
+  //   "##############################################################\n"
+  // ));
   help();
   pinMode(HC_ENABLE, OUTPUT);
-  digitalWrite(HC_ENABLE, HIGH); // Enter AT mode
-  BTSerial.begin(38400); // HC-05 default baud rate in AT mode is 38400
+  digitalWrite(HC_ENABLE, HIGH); 
+  BTSerial.begin(38400); 
 }
 
-/**
- * Print response from HC-05 in console terminal (if any)
- */
 void loop() {
   if (BTSerial.available()) {
     Serial.write(BTSerial.read());
   }
 }
 
-/**
- * Parse commands from serial console and pass to HC-05 (byte-literal)
- */
+
 void serialEvent() {
   BTSerial.write(Serial.read());
 }
 
-/**
- * Print available AT commands
- */
+
 void help() {
   Serial.println(F(
     "###############\n"

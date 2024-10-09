@@ -1,0 +1,28 @@
+COMPONENTS REQUIRED:
+
+1)ARDUINO UNO 
+
+2)USB CABLE FOR POWER ADAPTER
+
+3)ULTRASONIC SENSOR HCSR04
+
+4)SERVO MOTOR
+
+5)female to male wires-07
+
+CONNECTIONS:
+
+
+ARDUINO UNO      SERVO MOTOR
+
+ 5V               RED
+BROWN            GROUND
+YELLOW             9
+
+
+ARDUINO UNO        ULTRASONIC SENSOR
+
+ECHO PIN             11
+TRIG PIN             10
+GND                  GND
+VCC                  VIN

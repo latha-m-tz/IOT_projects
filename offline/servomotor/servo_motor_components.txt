@@ -15,5 +15,5 @@ WIRING INSTRUCTIONS:
 Servo Motor Wire	                 Arduino UNO Pin
 
 Red (Power)	                               5V
-Black or Brown (Ground)	GND
+Black or Brown                              (Ground)	GND
 Orange, White, or Yellow (Signal)	Digital Pin (e.g., Pin 9)

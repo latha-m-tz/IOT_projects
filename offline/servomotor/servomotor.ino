@@ -1,14 +1,14 @@
-
 #include <Servo.h>
 
-Servo myservo;  // create servo object to control a servo
-
-int pos= 0;    // variable to read the value from the analog pin
+Servo myServo; // Create a servo object
 
 void setup() {
-  myservo.attach(9);
-  myservo.write(95) ; // attaches the servo on pin 9 to the servo object
+  myServo.attach(9); // Attach the servo on pin 9
 }
 
-void loop() {        // reads the value of the potentiometer (value between 0 and 1023)
+void loop() {
+  myServo.write(90); // Move to 90 degrees
+  delay(1000);       // Wait for 1 second
+  myServo.write(0);  // Move back to 0 degrees
+  delay(1000);       // Wait for 1 second
 }

@@ -1,0 +1,19 @@
+COMPONENTS REQUIRED:
+
+1)Arduino UNO
+
+2)IR Obstacle Avoidance Sensor Module
+
+3)USB Cable (for powering the Arduino)
+
+4)Jumper Wires
+Male to Female: 03
+
+CONNECTIONS:
+
+Connecting IR Obstacle Avoidance Sensor to Arduino UNO
+
+IR Sensor Pin	Arduino UNO Pin
+VCC	        5V
+GND	        GND
+OUT	        Pin 8

@@ -1,6 +1,6 @@
 const int trigPin = 12;
 const int echoPin = 14;
-const int ledPin = D4; // Define the pin where the LED is connected
+const int ledPin = D4; 
 
 #define SOUND_VELOCITY 0.034
 #define CM_TO_INCH 0.393701
@@ -10,7 +10,7 @@ float distanceCm;
 float distanceInch;
 
 void setup() {
-  Serial.begin(115200); // Starts the serial communication
+  Serial.begin(115200); 
   pinMode(trigPin, OUTPUT); // Sets the trigPin as an Output
   pinMode(echoPin, INPUT); // Sets the echoPin as an Input
   pinMode(ledPin, OUTPUT); // Sets the ledPin as an Output
@@ -30,7 +30,6 @@ void loop() {
   
   distanceInch = distanceCm * CM_TO_INCH;
   
-  // Prints the distance on the Serial Monitor
   Serial.print("Distance (cm): ");
   Serial.println(distanceCm);
   Serial.print("Distance (inch): ");

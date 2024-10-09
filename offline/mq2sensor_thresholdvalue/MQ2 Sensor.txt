@@ -1,0 +1,8 @@
+Components Required
+
+
+•	1 × Breadboard
+•	1 × NodeMCU
+•	1 × MQ2 
+•	1 × Buzzer
+•	5 × Jumper

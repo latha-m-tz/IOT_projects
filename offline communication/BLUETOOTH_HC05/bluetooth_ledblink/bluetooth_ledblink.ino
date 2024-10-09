@@ -1,20 +1,19 @@
-char command; // Variable to store received data
+char command;
 
 void setup() {
-  pinMode(13, OUTPUT); // Set pin 13 as an output
-  Serial.begin(9600); // Initialize serial communication at 9600 bps
+  pinMode(13, OUTPUT); 
+  Serial.begin(9600); 
 }
 
 void loop() {
   if (Serial.available() > 0) {
-    command = Serial.read(); // Read the incoming data
+    command = Serial.read(); 
 
-    // Check the received command and perform actions
     if (command == '1') {
-      digitalWrite(13, HIGH); // Turn on the LED
+      digitalWrite(13, HIGH); 
       Serial.println("LED ON");
     } else if (command == '0') {
-      digitalWrite(13, LOW); // Turn off the LED
+      digitalWrite(13, LOW); 
       Serial.println("LED OFF");
     }
   }

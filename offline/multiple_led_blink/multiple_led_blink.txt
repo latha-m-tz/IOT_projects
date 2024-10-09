@@ -1,0 +1,12 @@
+Components Required
+
+•	1 × Breadboard
+•	1 × Arduino Uno 
+•	4 × LED
+•	4 × 10k Resistor
+•	8 × Jumper
+  
+
+Example url:
+
+1.

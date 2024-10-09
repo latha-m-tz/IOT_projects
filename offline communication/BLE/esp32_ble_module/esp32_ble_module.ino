@@ -126,8 +126,7 @@ void setup() {
 
   pAdvertising->setScanResponse(true);
 
-  pAdvertising->setMinPreferred(0x06);  // functions that help with iPhone connections issue
-
+  pAdvertising->setMinPreferred(0x06);  
   pAdvertising->setMinPreferred(0x12);
 
   BLEDevice::startAdvertising();
@@ -141,7 +140,6 @@ void setup() {
 
 void loop() {
 
-  // Do nothing here, everything is handled in the callbacks
 
   delay(1000);
 

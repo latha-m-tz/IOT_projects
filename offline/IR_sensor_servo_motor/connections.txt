@@ -1,0 +1,28 @@
+COMPONENTS REQUIRED:
+
+1)IR Sensor
+
+2)Servo Motor
+
+3)USB Cable (for powering the Arduino)
+
+4)Jumper Wires
+Male to female - 06
+female to female -03
+
+CONNECTIONS:
+
+1. Connecting IR Sensor to Arduino UNO
+
+IR Sensor Pin	Arduino UNO Pin
+
+VCC	3.3V
+GND	GND
+OUT	Pin 8
+
+2. Connecting Servo Motor to Arduino UNO
+
+Servo Motor Pin	    Arduino UNO Pin
+Red (Power)	      5V
+Brown (GND)	      GND
+Yellow (Signal)	      Pin 9
