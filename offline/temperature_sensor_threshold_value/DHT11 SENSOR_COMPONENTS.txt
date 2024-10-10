@@ -1,0 +1,19 @@
+COMPONENTS REQUIRED:
+
+1)DHT11 Temperature Sensor
+
+2)Arduino UNO
+
+3)USB Cable (for powering the Arduino)
+
+4)Jumper Wires
+MALE TO MALE (06)
+
+WIRING INSTRUCTIONS:
+
+1.Connecting DHT11 Temperature Sensor to Arduino UNO
+
+DHT11 Pin	Arduino UNO Pin
+GND	        GND
+VCC	        5V
+DATA PIN	Pin 7
