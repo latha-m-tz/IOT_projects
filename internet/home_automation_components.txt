@@ -1,0 +1,45 @@
+COMPONENTS REQUIRED:
+
+1)ESP8266 Wi-Fi Module (NodeMCU)
+
+2)4 x Push Buttons
+
+3)4 x LEDs
+
+4) x 220Ω Resistors (for LEDs)
+
+5)4 x 10kΩ Resistors (for pull-up configuration)
+
+6)4-Channel Relay Module
+
+7)Breadboard and Jumper Wires
+
+CIRCUIT CONNECTIONS:
+
+1. Connecting the Push Buttons to the ESP8266:
+
+Push Button	ESP8266 Pin	Resistor (if used)
+
+Button 1	D1 (GPIO5)	10kΩ (pull-up)
+Button 2	D2 (GPIO4)	10kΩ (pull-up)
+Button 3	D3 (GPIO0)	10kΩ (pull-up)
+Button 4	D4 (GPIO2)	10kΩ (pull-up)
+
+2. Connecting the LEDs to the ESP8266
+
+LED	ESP8266 Pin	Resistor
+
+LED 1	D5 (GPIO14)	220Ω
+LED 2	D6 (GPIO12)	220Ω
+LED 3	D7 (GPIO13)	220Ω
+LED 4	D8 (GPIO15)	220Ω
+
+3. Connecting the Relay Module to the ESP8266
+
+Relay Channel	ESP8266 Pin
+
+Relay 1	        D0 (GPIO16)
+Relay 2	        D1 (GPIO5)
+Relay 3	        D2 (GPIO4)
+Relay 4	        D3 (GPIO0)
+

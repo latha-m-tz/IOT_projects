@@ -1,0 +1,22 @@
+COMPONENTS REQUIRED:
+
+1)ESP8266 Wi-Fi Module (NODEMCU)
+
+2)1 LED
+
+3)Resistor (220Ω for the LED)
+
+4)USB Cable (for powering the NodeMCU)
+
+5)Jumper Wires
+MALE TO MALE -02
+
+6)Mobile Application
+
+WIRING INSTRUCTIONS:
+
+1.Connecting LED to NodeMCU
+
+LED Pin	NodeMCU   Pin
+Anode (+)	  D4
+Cathode (-)	  Resistor to GND
